@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>흥덕청소년문화의집 예약 시스템</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🏠흥덕청소년문화의집</h1>
+      <p>시설 예약 시스템</p>
+    </div>
+
+    <!-- 메인 화면 -->
+    <div id="main-screen" class="screen active">
+      <button class="btn" onclick="showScreen('user-info-screen')">시설 예약하기</button>
+    </div>
+
+    <!-- 사용자 정보 입력 화면 -->
+    <div id="user-info-screen" class="screen">
+      <div class="form-group"><label>이름</label><input type="text" id="user-name" class="form-input"></div>
+      <div class="form-group"><label>생년월일</label><input type="date" id="user-birth" class="form-input"></div>
+      <div class="form-group"><label>전화번호</label><input type="tel" id="user-phone" class="form-input"></div>
+      <button class="btn" onclick="showScreen('facility-screen')">다음</button>
+    </div>
+
+    <!-- 시설 선택 화면 -->
+    <div id="facility-screen" class="screen">
+      <div class="facility-card" onclick="selectFacility(this)"><div class="facility-name">닌텐도실</div></div>
+      <div class="facility-card" onclick="selectFacility(this)"><div class="facility-name">노래방</div></div>
+      <button class="btn" onclick="showScreen('datetime-screen')">다음</button>
+    </div>
+
+    <!-- 날짜/시간 선택 화면 -->
+    <div id="datetime-screen" class="screen">
+      <div class="today-date" id="today-date"></div>
+      <div class="time-slot" onclick="selectTimeSlot(this)" data-time="09:00-10:00">09:00-10:00</div>
+      <div class="time-slot" onclick="selectTimeSlot(this)" data-time="10:00-11:00">10:00-11:00</div>
+      <button class="btn btn-primary" onclick="completeReservation()">예약완료</button>
+    </div>
+
+    <!-- 예약 완료 화면 -->
+    <div id="success-screen" class="screen">
+      <h2>✅ 예약이 완료되었습니다!</h2>
+      <div style="background:#f8f9fa; padding:20px; border-radius:15px; margin-bottom:30px; text-align:left;"></div>
+      <button class="btn" onclick="showScreen('main-screen')">메인으로 돌아가기</button>
+    </div>
+
+    <!-- 예약 현황 화면 -->
+    <div id="status-screen" class="screen">
+      <div id="reservation-list"></div>
+    </div>
+
+    <!-- 전체 예약 현황 -->
+    <div id="all-status-screen" class="screen">
+      <div class="today-date" id="all-status-date"></div>
+      <table class="timetable">
+        <thead>
+          <tr><th>시간</th><th>닌텐도실</th><th>노래방</th></tr>
+        </thead>
+        <tbody id="timetable-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
