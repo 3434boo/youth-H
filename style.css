@@ -105,12 +105,14 @@ body {
 }
 
 .welcome-buttons {
-  position: static; /* absolute 제거 */
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 가로 중앙 정렬 */
+  position: static;
   max-width: 270px;
   margin-top: 50px;
   gap: 12px;
-  }
+}
 
 .welcome-emoji {
   position: absolute;       
@@ -166,7 +168,7 @@ body {
 }
 
 .btn {
-  width: 130%;
+  width: 100%;
   max-width: 320px;
   padding: 16px;
   border: none;
