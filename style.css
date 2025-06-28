@@ -93,7 +93,7 @@ body {
   flex-direction: column;
   justify-content: center; /* 세로 중앙 */
   align-items: center;     /* 가로 중앙 */
-  padding-bottom: 20px
+  padding-bottom: 20px;
   height: 100vh;
   position: relative;
 }
