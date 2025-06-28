@@ -93,7 +93,6 @@ body {
   flex-direction: column;
   justify-content: center; /* 세로 중앙 */
   align-items: center;     /* 가로 중앙 */
-  padding-bottom: 70px;
   height: 100vh;
   position: relative;
 }
@@ -109,7 +108,7 @@ body {
   position: static; /* absolute 제거 */
   width: 100%;
   max-width: 270px;
-  margin-top: 10px;
+  margin-top: 50px;
   gap: 12px;
   }
 
