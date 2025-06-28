@@ -102,16 +102,8 @@ body {
   color: #fff;             /* 텍스트 흰색 */
 }
 
-.welcome-overlay,
-.welcome-image-container,
-.welcome-screen {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
 .welcome-overlay {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
