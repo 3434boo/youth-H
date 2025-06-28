@@ -457,26 +457,3 @@ body {
   color: #999;
 }
 
-/* Media Queries */
-@media screen and (max-width: 767px) and (orientation: portrait) {
-  .welcome-text {
-    font-size: 1.4rem;
-    top: 40%;
-  }
-
-  .welcome-buttons {
-    bottom: 120px;
-    gap: 10px;
-  }
-
-  .welcome-emoji {
-    top: 120px;
-    font-size: 3.5em;
-  }
-
-  .btn {
-    max-width: 280px;
-    font-size: 1rem;
-  }
-}
-
