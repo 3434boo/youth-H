@@ -107,8 +107,8 @@ body {
 .welcome-buttons {
   position: static; /* absolute 제거 */
   width: 100%;
-  max-width: 300px;
-  margin-top: 40px;
+  max-width: 270px;
+  margin-top: 10px;
   gap: 12px;
   }
 
