@@ -492,3 +492,45 @@ body {
     padding: 18px;
   }
 }
+
+/* 아이패드 10.9인치(10세대) 대응: 820px ~ 1180px */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .container {
+    max-width: 92vw;
+    padding: 0 32px;
+  }
+
+  .welcome-buttons {
+    max-width: 480px;
+    margin-top: 60px;
+    gap: 20px;
+  }
+
+  .welcome-buttons .btn {
+    font-size: 1.2em;
+    padding: 20px;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .welcome-text {
+    font-size: 2.2rem;
+    max-width: 98%;
+    padding: 0 40px;
+  }
+
+  .facilities-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .screen {
+    padding: 40px;
+    min-height: calc(100vh - 120px);
+  }
+
+  .form-input {
+    font-size: 1.15em;
+    padding: 20px;
+  }
+}
