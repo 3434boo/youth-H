@@ -461,9 +461,9 @@ body {
   }
 
   .welcome-buttons {
-    max-width: 480px !important;
-    margin-top: 60px !important;
-    gap: 20px !important;
+    max-width: 500px !important;
+    margin-top: 20px !important;
+    gap: 10px !important;
   }
 
   .welcome-buttons .btn {
@@ -474,7 +474,7 @@ body {
   }
 
   .welcome-text {
-    font-size: 2.2rem !important;
+    font-size: 5rem !important;
     max-width: 98% !important;
     padding: 0 40px !important;
   }
