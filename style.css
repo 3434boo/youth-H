@@ -461,7 +461,7 @@ body {
   }
 
   .welcome-buttons {
-    max-width: 420px;   /* 버튼 그룹을 더 넓게 */
+    max-width: 600px;   /* 버튼 그룹을 더 넓게 */
     margin-top: 60px;
     gap: 18px;
   }
@@ -472,7 +472,7 @@ body {
   }
 
   .welcome-text {
-    font-size: 2.1rem;
+    font-size: 5rem;
     max-width: 95%;
     padding: 0 30px;
   }
