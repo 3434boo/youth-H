@@ -108,8 +108,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; /* 가로 중앙 정렬 */
-  left: 45%;                /* 가운데 정렬 */
-  transform: translateX(-50%); /* 수평 중앙 정렬 */
   position: static;
   max-width: 270px;
   margin-top: 50px;
