@@ -111,7 +111,7 @@ body {
   position: static;
   max-width: 400px;
   margin-top: 50px;
-  gap: 12px;
+  gap: 5px;
 }
 
 .welcome-emoji {
