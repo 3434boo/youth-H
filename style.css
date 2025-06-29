@@ -453,3 +453,42 @@ body {
   background: #f8f9fa;
   color: #999;
 }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    max-width: 90vw;
+    padding: 0 24px;
+  }
+
+  .welcome-buttons {
+    max-width: 420px;   /* 버튼 그룹을 더 넓게 */
+    margin-top: 60px;
+    gap: 18px;
+  }
+
+  .welcome-buttons .btn {
+    font-size: 1.15em;
+    padding: 18px;
+  }
+
+  .welcome-text {
+    font-size: 2.1rem;
+    max-width: 95%;
+    padding: 0 30px;
+  }
+
+  .facilities-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3열로 변경 */
+    gap: 20px;
+  }
+
+  .screen {
+    padding: 32px;
+    min-height: calc(100vh - 120px);
+  }
+
+  .form-input {
+    font-size: 1.1em;
+    padding: 18px;
+  }
+}
