@@ -168,6 +168,11 @@ body {
   
 }
 
+.welcome-buttons .btn {
+  width: 80%;
+  max-width: 270px;
+}
+
 .btn {
   width: 100%;
   max-width: 320px;
