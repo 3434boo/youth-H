@@ -492,38 +492,3 @@ body {
     padding: 18px;
   }
 }
-
-@media (min-width: 800px) and (max-width: 1200px) {
-  .container {
-    max-width: 92vw !important;
-    padding: 0 32px !important;
-  }
-  .welcome-buttons {
-    max-width: 480px !important;
-    margin-top: 10px !important;
-    gap: 5px !important;
-  }
-  .welcome-buttons .btn {
-    font-size: 1.2em !important;
-    padding: 20px !important;
-    width: 100% !important;
-    max-width: 480px !important;
-  }
-  .welcome-text {
-    font-size: 1rem !important;
-    max-width: 100% !important;
-    padding: 0 40px !important;
-  }
-  .facilities-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 24px !important;
-  }
-  .screen {
-    padding: 0px !important;
-    min-height: calc(100vh - 120px) !important;
-  }
-  .form-input {
-    font-size: 1.15em !important;
-    padding: 20px !important;
-  }
-}
