@@ -116,7 +116,7 @@ body {
 
 .welcome-emoji {
   position: absolute;       
-  top: 100px;                /* 상단에서 30px 여백 */
+  top: 300px;                /* 상단에서 30px 여백 */
   left: 45%;                /* 가운데 정렬 */
   transform: translateX(-50%); /* 수평 중앙 정렬 */
   font-size: 3em;
@@ -475,9 +475,9 @@ body {
   
  .welcome-buttons {
     max-width: 600px !important;
-    width: 100% !important;
-    margin-top: 40px !important;
-    gap: 18px !important;
+    width: 300px !important;
+    margin-top: 800px !important;
+    gap: 10px !important;
   }
 
   .welcome-buttons .btn {
@@ -491,7 +491,7 @@ body {
     font-size: 2.2rem !important;
     max-width: 95vw !important;
     width: 95vw !important;
-    padding: 0 40px !important;
+    padding: 0 70px !important;
   }
 
   .facilities-grid {
