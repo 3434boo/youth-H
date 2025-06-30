@@ -146,7 +146,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px; 
+  padding-top: 0px; 
 }
 
 .welcome-text {
