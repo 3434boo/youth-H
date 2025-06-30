@@ -456,13 +456,22 @@ body {
 /* 아이패드 10.9인치(10세대) 및 유사 태블릿 대응 */
 @media (min-width: 800px) and (max-width: 1200px) {
   .container {
-    max-width: 92vw !important;
+    max-width: 100vw !important;
     padding: 0 32px !important;
   }
 
+  .welcome-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
   .welcome-buttons {
-    max-width: 420px !important;
-    margin-top: 40px !important;
+    max-width: 620px !important;
+    margin-top: 1000px !important;
     gap: 18px !important;
   }
 
