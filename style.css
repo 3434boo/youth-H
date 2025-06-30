@@ -475,8 +475,8 @@ body {
   }
   
   .welcome-buttons {
-    max-width: 920px !important;
-    margin-top: 200px !important;
+    max-width: 520px !important;
+    margin-top: 50px !important;
     gap: 10px !important;
   }
 
@@ -488,7 +488,7 @@ body {
   }
 
   .welcome-text {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     max-width: 300% !important;
     padding: 0 40px !important;
   }
@@ -499,7 +499,7 @@ body {
   }
 
   .screen {
-    padding: 32px !important;
+    padding: 0px !important;
     min-height: calc(100vh - 120px) !important;
   }
 
