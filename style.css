@@ -475,7 +475,7 @@ body {
  .welcome-buttons {
     max-width: 600px !important;
     width: 300px !important;
-    margin-top: 800px !important;
+    margin-top: 0px !important;
     gap: 10px !important;
   }
 
