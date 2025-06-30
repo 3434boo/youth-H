@@ -110,7 +110,7 @@ body {
   align-items: center; /* 가로 중앙 정렬 */
   position: static;
   max-width: 500px;
-  margin-top: 50px;
+  margin-top: 80px;
   gap: 5px;
 }
 
